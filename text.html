@@ -3,13 +3,25 @@
 
 <head>
     <meta charset="UTF-8">
-
+    <link rel="shortcut icon" type="x-icon" href="https://assets.materialup.com/uploads/b517ef76-cee5-4f26-ac38-01f857c7bfd8/preview.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Todo List</title>
 </head>
 
 <body>
+    <div class="box">
+        <h1>Todo List</h1>
+        <div class="todo-display-set">
+            <input class="js-name-input name-input" placeholder="Todo Name" minlength="5" required>
+            <input type="date" class="js-due-date-input  due-date">
+            <button class="add-button js-add-button">Add</button>
+        </div>
+        <div class="js-list-display container"></div>
+    </div>
 
+
+    <script src="act.js"></script>
 </body>
 
 </html>
